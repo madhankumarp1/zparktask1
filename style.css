@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Caveat:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,500&family=Montserrat:ital,wght@0,200;0,300;0,500;0,700;1,500;1,600&family=Outfit:wght@700&family=Pacifico&family=Varela+Round&display=swap");
+
+
+body {
+    background-color: rgb(194, 173, 214);
+    background-image: linear-gradient(to left, #18122B, #77037B);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+    font-family: Varela Round;
+
+}
+
+li.left {
+    float: left;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 0 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hover-underline-animation a{
+    /* display: inline-block; */
+    position: relative;
+    /* color: #791b1b; */
+}
+
+.hover-underline-animation a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    /* transform: scaleX(0); */
+    height: 3px;
+    bottom: -8px;
+    left: 0;
+    color : green;
+    background-color: #77037B;
+    /* background-color: #5e29c0;
+    transform-origin: bottom right;
+    
+    transition: transform 0.25s ease-out; */
+}
+
+.hover-underline-animation:hover:after {
+    /* transform: scaleX(1);
+    transform-origin: bottom left; */
+    width : 100%;
+}
+
+li a {
+    position : relative;
+    margin : 0 20px;
+}
+
+li a:after {
+    content : "";
+    width : 0%;
+    height : 3px;
+    background-color: #77037B;
+    position : absolute;
+    left : 0;
+    bottom : -8px;
+    transition: 1s;
+}
+
+li a:hover:after {
+    width : 100%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 6px;
+    margin-inline-end: 34px;
+    font-family:Varela Round;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: left; */
+}
+
+h2 {
+    font-size: xx-large;
+    font-family:Varela Round;
+}
+
+strong {
+    background: linear-gradient(rgb(181, 255, 211) 0.02%,
+            rgb(209, 164, 255) 39.16%,
+            rgb(255, 165, 175) 75.82%,
+            rgb(255, 220, 164) 112%, transparent);
+    font-family: Varela Round;
+    font-size: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content {
+    position: relative;
+    /* top: 100px; */
+    right: 40px;
+    font-size: x-large;
+    color: white;
+    width: 50%;
+    height: 100%;
+    /* line-height: 30px; */
+}
+
+img {
+    height: 500px;
+    width: 350px;
+    border-radius: 20%;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+button {
+    height: 48px;
+    width: 129px;
+    border: none;
+    background: darkviolet;
+    border-radius: 4px;
+    color: white;
+    font-size: medium;
+    font-family: Varela Round;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 19px;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #77037B;
+}
+
+
+/* 
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left,#18122B,#77037B);
+ }
+  */
+
+/* li a:hover {
+    background-color: #d595ee;
+    text-underline-position: above;
+} */
+
+/* img{
+
+    height: 500px;
+    width: 350px;
+    border-radius: 20%;
+    position: relative;
+    top: 130px;
+    left: 50px;
+}  */
+
+/* .fa-solid, .fas {
+    font-weight: 900;
+    font-size: xxx-large;
+} */
